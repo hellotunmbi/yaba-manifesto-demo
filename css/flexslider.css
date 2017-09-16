@@ -1,0 +1,310 @@
+html[xmlns] .slides {
+    display: block;
+}
+
+* html .slides {
+    height: 1%;
+}
+
+#slider_wrapper {
+    position: relative;
+}
+
+#slider {
+    margin: 0;
+    position: relative;
+}
+
+#flexslider {
+    position: relative;
+    min-height: 378px;
+}
+
+#flexslider .slides>li {
+    display: none;
+    position: relative;
+}
+
+.slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.slides {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.slides img {
+    width: 100%;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+#flexslider .flex-control-nav {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 95px;
+    z-index: 5;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}
+
+#flexslider .flex-control-nav li {
+    display: inline-block;
+    float: none;
+    width: 11px;
+    height: 11px;
+    margin: 0 8px;
+}
+
+#flexslider .flex-control-nav li:first-child {}
+
+#flexslider .flex-control-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: none;
+    text-indent: -9999%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: url("images/pagination.png") left top no-repeat;
+}
+
+#flexslider .flex-control-nav li a:hover,
+#flexslider .flex-control-nav li a.flex-active {
+    background-position: right;
+}
+
+#flexslider .flex-control-nav li .flex-active {
+    cursor: default;
+    pointer-events: none;
+}
+
+#flexslider .flex-direction-nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#flexslider .flex-direction-nav li {}
+
+#flexslider .flex-direction-nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -25px;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+#flexslider .flex-direction-nav li a.flex-prev {
+    background: url("../images/prev.png") left top no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#flexslider .flex-direction-nav li a.flex-prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#flexslider .flex-direction-nav li a.flex-next {
+    left: auto;
+    right: 0;
+    background: url("../images/next.png") left top no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#flexslider .flex-direction-nav li a.flex-next:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.flex-caption {
+    position: absolute;
+    width: 700px;
+    right: 15%;
+    top: 50%;
+    margin-top: -150px;
+}
+
+.flex-caption .txt1 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 90px;
+    color: #000;
+}
+
+.flex-caption .txt2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 50px;
+    color: #ff4081;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 180px;
+}
+
+.flex-caption .txt3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 90px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.flex-caption .txt4 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000;
+    padding-top: 20px;
+}
+
+.nav2 .flex-caption {
+    position: absolute;
+    width: 650px;
+    left: 15%;
+    top: 50%;
+    margin-top: -140px;
+}
+
+.nav2 .flex-caption .txt1 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 110px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.nav2 .flex-caption .txt2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 110px;
+    color: #02d6fb;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 0;
+}
+
+@media (max-width: 1199px) {
+    #flexslider {
+        min-height: 312px;
+    }
+    .flex-caption {
+        width: 500px;
+        right: 5%;
+        margin-top: -115px;
+    }
+    .flex-caption .txt1 {
+        font-size: 80px;
+        line-height: 60px;
+    }
+    .flex-caption .txt2 {
+        font-size: 40px;
+        line-height: 30px;
+        padding-right: 130px;
+    }
+    .flex-caption .txt3 {
+        font-size: 80px;
+        line-height: 60px;
+    }
+    .flex-caption .txt4 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .nav2 .flex-caption {
+        width: 500px;
+        left: 5%;
+        margin-top: -115px;
+    }
+    .nav2 .flex-caption .txt1 {
+        font-size: 80px;
+        line-height: 75px;
+    }
+    .nav2 .flex-caption .txt2 {
+        font-size: 80px;
+        line-height: 75px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    #flexslider {
+        min-height: 242px;
+    }
+    .flex-caption {
+        width: 400px;
+        right: 5%;
+        margin-top: -80px;
+    }
+    .flex-caption .txt1 {
+        font-size: 60px;
+        line-height: 40px;
+    }
+    .flex-caption .txt2 {
+        font-size: 30px;
+        line-height: 25px;
+        padding-right: 100px;
+    }
+    .flex-caption .txt3 {
+        font-size: 60px;
+        line-height: 40px;
+    }
+    .flex-caption .txt4 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .nav2 .flex-caption {
+        width: 400px;
+        left: 5%;
+        margin-top: -80px;
+    }
+    .nav2 .flex-caption .txt1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .nav2 .flex-caption .txt2 {
+        font-size: 60px;
+        line-height: 55px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    #flexslider {
+        min-height: 100px;
+    }
+    .flex-caption {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {}
