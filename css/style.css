@@ -27,7 +27,7 @@ body {
 }
 
 body {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #000;
     font-weight: 300;
     font-size: 15px;
@@ -86,7 +86,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
 
@@ -99,13 +99,13 @@ h6 strong,
 a strong,
 .bold,
 .connected-icons li a h5 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     display: block;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     color: #FAB500;
     line-height: 1;
@@ -127,7 +127,7 @@ h2 {
     position: relative;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h5 {
@@ -165,7 +165,7 @@ h5 {
     text-align: center;
     color: #FAB500;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 1;
     padding-top: 20px;
@@ -184,7 +184,7 @@ h5 {
     text-align: left;
     color: #FAB500;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 1;
     text-transform: uppercase;
@@ -522,7 +522,7 @@ header {
     display: block;
     text-decoration: none;
     background: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
@@ -599,7 +599,7 @@ header {
 .sub-menu li a {
     display: block;
     position: relative;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 11px;
     text-transform: uppercase;
@@ -740,7 +740,7 @@ header {
 }
 
 .mission .mission_inner .txt1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 60px;
 }
@@ -941,7 +941,7 @@ header {
 }
 
 .what1 .txt1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
@@ -952,7 +952,7 @@ header {
 .what1 .txt2 {
     font-size: 15px;
     padding-bottom: 20px;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 
@@ -1155,7 +1155,7 @@ header {
 }
 
 .services2 .txt1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 22px;
     color: #FAB500;
@@ -1240,7 +1240,7 @@ header {
 }
 
 .latestposts .caption .txt2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     color: #FAB500;
     font-weight: 400;
@@ -1472,7 +1472,7 @@ header {
 }
 
 .client1 a .txt2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 400;
     position: relative;
@@ -1501,7 +1501,7 @@ header {
 }
 
 .client1 a .txt2 span {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     display: block;
@@ -2213,7 +2213,7 @@ logo_wrapper {
 }
 
 .bot_title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
